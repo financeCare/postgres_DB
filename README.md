@@ -154,7 +154,3 @@ psql -h localhost -p 5432 -U root -d financeCare_DB -f database_backup.sql
   docker network create finance-net
   ```
 * เมื่อรัน Docker Compose ขึ้นมา ฐานข้อมูลจะถูกสร้างและเชื่อมโยงกับ Container อื่นๆ โดยอัตโนมัติ และจะเก็บข้อมูลแบบถาวรผ่าน Docker Volume เพื่อไม่ให้ข้อมูลสูญหายเมื่อหยุดทำงาน
-
----
-
-*ดูแลและจัดการโครงสร้างฐานข้อมูลของระบบ FinanceCare เพื่อสุขภาพทางการเงินและอนาคตที่ดีของผู้ใช้งาน 🗄️*
