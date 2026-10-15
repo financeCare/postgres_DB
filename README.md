@@ -12,7 +12,7 @@
 * **Default Port:** `5432`
 * **Database Name:** `financeCare_DB`
 * **Default Username:** `root`
-* **Default Password:** `password123`
+* **Password:** กำหนดผ่านตัวแปร `DB_PASSWORD` ในไฟล์ `.env` ของ backend (ดู `.env.example` ใน repo `financeCare/backend`) ห้ามใช้รหัสผ่านตัวอย่างหรือรหัสผ่านที่เดาง่าย
 * **Connection URL (Development):** `jdbc:postgresql://localhost:5432/financeCare_DB`
 * **Hibernate DDL Auto-strategy:** `update`
 
